@@ -1,0 +1,59 @@
+ro/ubb/sebi/hotelmanager/ui/hotelList/HotelListFragmentDirections.java
+ ro.ubb.sebi.hotelmanager.ui.hotelList.HotelListFragmentDirections
+ ro.ubb.sebi.hotelmanager.ui.hotelList.HotelListFragmentDirections$1
+ ro.ubb.sebi.hotelmanager.ui.hotelList.HotelListFragmentDirections$ActionHotelListFragmentToHotelEditFragment
+ro/ubb/sebi/hotelmanager/data/HotelDatabaseDao_Impl.java
+ ro.ubb.sebi.hotelmanager.data.HotelDatabaseDao_Impl
+ ro.ubb.sebi.hotelmanager.data.HotelDatabaseDao_Impl$1
+ ro.ubb.sebi.hotelmanager.data.HotelDatabaseDao_Impl$2
+ ro.ubb.sebi.hotelmanager.data.HotelDatabaseDao_Impl$3
+ ro.ubb.sebi.hotelmanager.data.HotelDatabaseDao_Impl$4
+ ro.ubb.sebi.hotelmanager.data.HotelDatabaseDao_Impl$5
+ro/ubb/sebi/hotelmanager/databinding/HotelEditFragmentBindingImpl.java
+ ro.ubb.sebi.hotelmanager.databinding.HotelEditFragmentBindingImpl
+androidx/databinding/DataBinderMapperImpl.java
+ androidx.databinding.DataBinderMapperImpl
+ro/ubb/sebi/hotelmanager/ui/login/LoginFragmentDirections.java
+ ro.ubb.sebi.hotelmanager.ui.login.LoginFragmentDirections
+ro/ubb/sebi/hotelmanager/generated/callback/OnClickListener.java
+ ro.ubb.sebi.hotelmanager.generated.callback.OnClickListener
+ ro.ubb.sebi.hotelmanager.generated.callback.OnClickListener$Listener
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+ro/ubb/sebi/hotelmanager/BR.java
+ ro.ubb.sebi.hotelmanager.BR
+ro/ubb/sebi/hotelmanager/databinding/ActivityMainBindingImpl.java
+ ro.ubb.sebi.hotelmanager.databinding.ActivityMainBindingImpl
+ro/ubb/sebi/hotelmanager/databinding/LoginFragmentBinding.java
+ ro.ubb.sebi.hotelmanager.databinding.LoginFragmentBinding
+ro/ubb/sebi/hotelmanager/data/HotelDatabase_Impl.java
+ ro.ubb.sebi.hotelmanager.data.HotelDatabase_Impl
+ ro.ubb.sebi.hotelmanager.data.HotelDatabase_Impl$1
+ro/ubb/sebi/hotelmanager/databinding/HotelListFragmentBinding.java
+ ro.ubb.sebi.hotelmanager.databinding.HotelListFragmentBinding
+ro/ubb/sebi/hotelmanager/databinding/ActivityMainBinding.java
+ ro.ubb.sebi.hotelmanager.databinding.ActivityMainBinding
+ro/ubb/sebi/hotelmanager/databinding/HotelListFragmentBindingImpl.java
+ ro.ubb.sebi.hotelmanager.databinding.HotelListFragmentBindingImpl
+ro/ubb/sebi/hotelmanager/BuildConfig.java
+ ro.ubb.sebi.hotelmanager.BuildConfig
+ro/ubb/sebi/hotelmanager/databinding/LoginFragmentBindingImpl.java
+ ro.ubb.sebi.hotelmanager.databinding.LoginFragmentBindingImpl
+ro/ubb/sebi/hotelmanager/databinding/HotelEditFragmentBinding.java
+ ro.ubb.sebi.hotelmanager.databinding.HotelEditFragmentBinding
+ro/ubb/sebi/hotelmanager/DataBinderMapperImpl.java
+ ro.ubb.sebi.hotelmanager.DataBinderMapperImpl
+ ro.ubb.sebi.hotelmanager.DataBinderMapperImpl$InnerBrLookup
+ ro.ubb.sebi.hotelmanager.DataBinderMapperImpl$InnerLayoutIdLookup
+ro/ubb/sebi/hotelmanager/DataBindingTriggerClass.java
+ ro.ubb.sebi.hotelmanager.DataBindingTriggerClass
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
+ro/ubb/sebi/hotelmanager/databinding/HotelCardBinding.java
+ ro.ubb.sebi.hotelmanager.databinding.HotelCardBinding
+ro/ubb/sebi/hotelmanager/databinding/HotelCardBindingImpl.java
+ ro.ubb.sebi.hotelmanager.databinding.HotelCardBindingImpl
+ro/ubb/sebi/hotelmanager/ui/hotelEdit/HotelEditFragmentArgs.java
+ ro.ubb.sebi.hotelmanager.ui.hotelEdit.HotelEditFragmentArgs
+ ro.ubb.sebi.hotelmanager.ui.hotelEdit.HotelEditFragmentArgs$1
+ ro.ubb.sebi.hotelmanager.ui.hotelEdit.HotelEditFragmentArgs$Builder

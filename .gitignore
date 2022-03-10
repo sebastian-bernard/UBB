@@ -4,3 +4,15 @@
 /Documente & Contracte/
 Recordings
 /AN 2/
+#
+#node_modules for Ionic from MA
+node_modules
+.tmp
+.sass-cache
+**/bower_components or sometimes it is lib/**
+platforms
+plugins
+*.swp
+*.swo
+*.log
+*.DS_Store

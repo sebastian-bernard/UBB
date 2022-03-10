@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\DATA\\UBB\\AN 3\\I\\MA - Mobile Applications\\lab\\ANDROID\\HotelPlanner\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\hotel_edit_fragment.xml",
+        "source": "C:\\DATA\\UBB\\AN 3\\I\\MA - Mobile Applications\\lab\\ANDROID\\HotelPlanner\\app\\src\\main\\res\\layout\\hotel_edit_fragment.xml"
+    },
+    {
+        "merged": "C:\\DATA\\UBB\\AN 3\\I\\MA - Mobile Applications\\lab\\ANDROID\\HotelPlanner\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\DATA\\UBB\\AN 3\\I\\MA - Mobile Applications\\lab\\ANDROID\\HotelPlanner\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\DATA\\UBB\\AN 3\\I\\MA - Mobile Applications\\lab\\ANDROID\\HotelPlanner\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\login_fragment.xml",
+        "source": "C:\\DATA\\UBB\\AN 3\\I\\MA - Mobile Applications\\lab\\ANDROID\\HotelPlanner\\app\\src\\main\\res\\layout\\login_fragment.xml"
+    },
+    {
+        "merged": "C:\\DATA\\UBB\\AN 3\\I\\MA - Mobile Applications\\lab\\ANDROID\\HotelPlanner\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\hotel_card.xml",
+        "source": "C:\\DATA\\UBB\\AN 3\\I\\MA - Mobile Applications\\lab\\ANDROID\\HotelPlanner\\app\\src\\main\\res\\layout\\hotel_card.xml"
+    },
+    {
+        "merged": "C:\\DATA\\UBB\\AN 3\\I\\MA - Mobile Applications\\lab\\ANDROID\\HotelPlanner\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\hotel_list_fragment.xml",
+        "source": "C:\\DATA\\UBB\\AN 3\\I\\MA - Mobile Applications\\lab\\ANDROID\\HotelPlanner\\app\\src\\main\\res\\layout\\hotel_list_fragment.xml"
+    }
+]
