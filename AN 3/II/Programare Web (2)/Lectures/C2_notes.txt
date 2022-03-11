@@ -1,0 +1,54 @@
+CSS box model: margin, border, padding, context
+
+Adding CSS to a HTML page:
+    external style sheet:
+            <head>
+                <link rel=“stylesheet” type=“text/css” href=“style.css”>
+            </head>
+    internal style sheet:
+            <head>
+                <style type=“text/css”>
+                        p { margin-left: 10px }
+                </style>
+            </head>
+    inline style sheet:
+            <p style=“color: red; margin-left: 10px}
+
+Selectors:
+    - group of tags; ex.: h1, h2, h3, h4, h5, h6 { color: red }
+    - class name; p.right { text-align: right } 
+                   .right { text-align: right }
+    - ID; div#green { color: green }
+			 #green { color: green }
+    -extras:
+        p:first-child { color: blue }
+        p > i:first-child { color: blue} /* matches an element that is the first child of a specific element;  */
+
+Pseudo-classes:
+    a:link {color: #FF0000;}    /* unvisited link */    
+    a:visited {color: #00FF00;} /* visited link */    
+    a:hover {color: #FF00FF;}   /* mouse over link */
+    a:active {color: #0000FF;}  /* selected link */ 
+    OBS: order for efficiency; link -> visited -> hover -> active
+
+Basic Elements' properties:
+    background:
+        background-atachment = background image is fix or scrolls with the page
+                -image
+                -position
+                -repeat
+
+    dimesnions:                
+        height, max-height, min-height
+        width, max-width, min-width
+
+    list:
+        list-style
+        list-style-image
+                -position
+                -type  
+
+Positioning:
+    static
+    relative
+    absolute: relative to the top-left corner of first ancestor thet has a position, other than static, else, relative to top-left corner of the bottom

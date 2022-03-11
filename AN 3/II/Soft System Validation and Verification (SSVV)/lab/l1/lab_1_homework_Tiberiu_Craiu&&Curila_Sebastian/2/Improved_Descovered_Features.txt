@@ -1,0 +1,15 @@
+FEATURES	
+	1. adding a student
+	2. validation of a student
+	3. List all Students
+	4. List Assignments
+	5. List Grades
+	6. Deletes Student
+	7. Update Student
+
+NEW_DESCOVERED_FEATURES
+	1. UPDATE DEADLINE FOR AN ASSIGNMENT
+	2. DELETE ASSIGNMENT
+	3. GRADE ASSIGNMENT FOR A STUDENT
+	4. ADD ASSIGNMENT
+	

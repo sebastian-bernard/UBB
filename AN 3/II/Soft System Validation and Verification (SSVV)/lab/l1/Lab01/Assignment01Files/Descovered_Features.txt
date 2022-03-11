@@ -1,0 +1,9 @@
+FEATURES	
+	1. adding a student
+	2. validation of a student
+	3. List all Students
+	4. List Assignments
+	5. List Grades
+	6. Deletes Student
+	7. Update Student
+	

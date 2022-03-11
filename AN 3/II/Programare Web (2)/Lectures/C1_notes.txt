@@ -1,0 +1,75 @@
+METADATA TAGS
+<head>
+	<title>My title</title>
+<head>
+
+<head>
+	<base href=http://www.cs.ubbcluj.ro/~forest>
+	<base target=“_blank”> - Opens the linked document in a new window or tab
+    <base target=“_self”> - Opens the linked document in the same frame as it was clicked (this is default)
+    <base target=“_top”> - Opens the linked document in the parent frame
+    <base target=“_parent”> - Opens the linked document in the parent frame
+</head>
+
+<link> - defines the relationship between a document and an external resource; appears in the head section, any number of times
+    Attributes:
+        href  - location of the linked document
+        rel – relationship between current document and linked document: alternate, appendix, bookmark, chapter, contents, copyright, glossary, help, home, index, next, prev, section, start, stylesheet, subsection
+        rev - relationship between linked document and current document; values the same as above
+        type – MIME type of the linked document
+        target – where the document is to be loaded
+    Ex:
+        <link rel=“stylesheet” type=“text/css” href=“theme.css”>
+
+<meta> - describes information about the html document;
+         it is not displayed, it is machine parsable;
+         appears in the head section
+         MORE: https://www.w3schools.com/tags/tag_meta.asp
+
+<style> - defines style information in an html document 
+        <style type="text/css">	h1 {color:red}p {color:blue}</style> 
+
+<select>, <option>
+          - <select>
+                <option value="ferrari">Ferrari</option>
+                <option value="audi">Audi</option>
+                <option value="bmw">BMW</option>
+                <option value="ford">Ford</option>
+            </select>
+<table></table>
+    <table> - defines a table
+    <th> - defines a table header cell (bold and centered)
+    <tr> - defines a table row
+    <td> - defines a table data
+    <table>: border (pixels), cellpading (pixels), cellspacing  (pixels), frame, rules, summary (text), width (pixels,%)
+
+<object> - including objects like images, audio, video, Java applets, ActiveX, pdf, flash
+
+<frame> - a frame (window) within a frameset
+	Attributes:
+		frameboder = 0 | 1
+		marginheight = pixels	(top and bottom margins of a frame)
+		marginwidth = pixels (left and right margins of a frame)
+		name – name of a frame
+		noresize = “noresize”
+		scrolling = “yes | no | auto”
+		src = “URL”  - URL of the document to show in a frame
+<iframe> - an inline frame that contains another document within the current document
+	Attributes: align, frameborder, height, width, marginwidth, marginheight, name, scrolling, src
+
+    <iframe src="demo_iframe.htm" name="iframe_a" height="300px" width="100%" title="Iframe Example"></iframe>
+    Example:
+        <p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
+        <p>When the target attribute of a link matches the name of an iframe, the link will open in the iframe.</p>
+
+
+<main> - excludes data that is repeated across a set of documents (e.g. header, footer, navigational links, copyright)
+<section>
+<article>
+<footer>
+<header>
+<aside>
+<nav>
+
+
+<svg>,<audio>,<video> - a bit more advanced tags

@@ -1,0 +1,38 @@
+fisrt purpose of computational machines
+        compute the bernoulli numbers
+ADA - frst programmer
+    - first programming language
+
+First usages of computrs:
+    - complicated calculations in economics, architectures(buildings)
+    - arthematical books with various common computations(formulas, algorithms, sin, cos, etc)
+
+Charles Babbage ideea for computer:
+    - first general porpouse computational machines
+    - all books had different aproximation of infinite fct -> lets compute a machine that compute mathematical computations
+    - promised to build it in 1 year for 1000 pounds, received 17.000 and failed
+    - first Differential Engine, then Analytical project an faild again
+    - why failure? 
+        - technological advancement were poor, no insustrial equipment to produce metlic parts with huge precision for his design        
+        - no precision in industry for mechanical part
+        - Charles was like Touring like         
+
+Computer Science 
+    - 1959
+    - Harware -> 1822 with Charles Babbage
+        - mechanical computators : 1600
+    Software
+        - first appeard with Mussamad(Arab) that invented the term ALGORITHM
+    - term first appeard in an article by ACM(Association of Computer Machinery)
+    - *:        
+        - fields:
+            - theoretical C.S.(DSA, Coding theory, Languages)
+            - computer sistems (operation sistems, DB, Netwoks,)
+            - AI, 
+            - Softwere Engineering(Design Patterns, reuse of the code)
+    - **:
+        - algoritmy de numero hyndorum =             
+        - numbering systems: invented by Indians, brought by Arabs 
+    
+
+
