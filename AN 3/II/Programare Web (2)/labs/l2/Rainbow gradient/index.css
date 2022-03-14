@@ -14,7 +14,7 @@ div.c {
 }
 
 div#d1 {
-	background: linear-g radient(0deg, orange, red);
+	background: linear-gradient(0deg, orange, red);
 	transform:
 	    translateX(500px)
 }

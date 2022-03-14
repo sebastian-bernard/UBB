@@ -1,0 +1,63 @@
+-flex items:
+    justify-content
+    align-items
+    align-self
+    align-content
+    flex-direction        
+    flex-wrap
+    flex-flow
+    order
+    
+- justify-content:
+    /* always on the main axis -> ex: daca e row, main axis:Ox, cross axis:Oy */
+    - flex-start, flex-end, center    
+    - space-between, -around
+    justify-content: flex-end;
+
+-align: 
+    /* always on the cross axis -> ex: daca e row, main axis:Ox, cross axis:Oy */
+    - align-items:
+        -start, -end, center
+
+    - align-self:
+        -start, -end, center
+
+    -align-content:
+        flex-start: Lines are packed at the top of the container.
+        flex-end: Lines are packed at the bottom of the container.
+        center: Lines are packed at the vertical center of the container.
+        space-between: Lines display with equal spacing between them.
+        space-around: Lines display with equal spacing around them.
+        stretch: Lines are stretched to fit the container.
+
+- flex-direction:
+    row: Items are placed the same as the text direction.
+    row-reverse: Items are placed opposite to the text direction.
+    column: Items are placed top to bottom.
+    column-reverse: Items are placed bottom to top.
+
+-flex-wrap:
+    nowrap: Every item is fit to a single line.
+    wrap: Items wrap around to additional lines.
+    wrap-reverse: Items wrap around to additional lines in reverse.
+
+-flex-flow: row wrap
+
+-flex-basis = width
+
+- flex-grow = rate with whom the container expand when the window changes its size
+
+-flex = flex-grow + felx-shrink + flex-basis
+    flex: 1 2 50px;
+
+
+ul{
+    list-style-type: none    
+}
+
+h{
+    line-height:1.2
+}
+
+
+ 

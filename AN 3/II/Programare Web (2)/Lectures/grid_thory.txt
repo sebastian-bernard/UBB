@@ -1,0 +1,52 @@
+.container{
+    display: grid;    
+}
+
+- adding columns:
+    - grid-template-areas:
+    - grid-template-columns: 50px, 23px, 100px;
+                          : 20%, 30%, 50%;
+                          : 1fr, 1fr, 2fr = fractions - take the entire with of the container   
+                          : repeat(3, 1fr) = repeat 3 tims 1 fr for columns
+                          : repeat(auto-fill, minmax(200px, 1fr)) - la ecran ed 200px, avem 1 coloana, in rest, autofill de coloane
+                        
+
+- spacing the elements(margin)
+    column-gap: 10px;
+    row-gap = 10px;
+    gap: 10px;    
+
+- height of the elements:
+    - grid-auro-rows: 200px; = set all rows the same size    
+    - grid-template-rows: 100px,
+                    : minmax(200px, auto);
+                    : repeat(3, 1fr);
+
+- aligning:    
+    - align-items: strech = default, align each row after the biggest elem in the row;
+                 : start = fit the content for each element;
+                 : center, end
+        - cross axis, refference as in flex-direction: colum    
+        - for container(all items inside)
+    - align-self
+        - for a specifi item inside the container
+    - justify-content: start, end, space-between, etc
+        - main axis, refference as in flex-direction: column
+
+- spanning elements = make them strech across multiple columns or rows:
+    - .classname:nth-of-type(1){
+         - grid-colum-start:1;
+         - grid-colum-end:4;
+                OR
+         - grid-colum:1/4;  
+                OR - rows
+         - grid-rows: 2/4;
+      }
+
+- responsiveness:
+    - grid-template-colums: repeat(auto-fill, minmax(200px, 1fr);
+    - @media(max-width: 500px ){
+        .container{
+            grid-template-columns: 1fr;
+        }
+    }
