@@ -11,7 +11,5 @@ f_values = [];
 for i=1:length(x_values)
   f_values = [f_values Newton(x, f, x_values(i))];
 endfor
-subplot(1, 2, 1);
-plot(x, f);
-subplot(1, 2, 2);
-plot(x_values, f_values, '-r');
+
+plot(x, f, '*',x_values, f_values, '-r');

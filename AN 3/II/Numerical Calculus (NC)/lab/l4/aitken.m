@@ -41,7 +41,7 @@ function returnval = Aitken(x_values, f_values, x)
       lhs = table(j-1, j-1).*(x_values(i) - x);
       rhs = table(i, j-1).*(x_values(j-1) - x);
       det = lhs - rhs;
-      %
+      %      
       newValue = 1/(x_values(i) - x_values(j-1)) * det;
       newLine = [newLine, newValue];
     endfor    
