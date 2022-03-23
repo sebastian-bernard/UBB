@@ -3,7 +3,7 @@
 %f:[a,b] -> R
 function estimatedError = myFunction(n)
     %Lagrangian polynomial for n given values  
-  x_values = linspace(-5, 5, n);
+  x_values = linspace(-5, 5, n+1);
   f_values = 1./(1.+x_values.^2); 
   y_values = linspace(-5, 5, 101);  
     
