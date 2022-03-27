@@ -1,0 +1,24 @@
+- Animation effects:
+    -make the transition smoother
+        - transition: transform 0.2s ease-in;
+        - transform: translateY(-15px);
+    
+- Reset defaults     
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+        -box-sizing = allow {element: top-bottom left:right}
+    
+    -> body = background/ text collor, text font, line-height
+    -> ul = no bullet-points 
+    -> links = no underline
+    -> headings (h1, h2)
+    -> img = width = 100%
+
+- CSS gobal variables
+    :root {
+        --primary-color: #047aed;
+        --secondary-color: #1c3fa8;     
+    }

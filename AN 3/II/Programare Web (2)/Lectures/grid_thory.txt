@@ -4,6 +4,9 @@
 
 - adding columns:
     - grid-template-areas:
+        'header header header'
+        'nav content sidebar'
+        'footer footer footer';        
     - grid-template-columns: 50px, 23px, 100px;
                           : 20%, 30%, 50%;
                           : 1fr, 1fr, 2fr = fractions - take the entire with of the container   
@@ -17,7 +20,7 @@
     gap: 10px;    
 
 - height of the elements:
-    - grid-auro-rows: 200px; = set all rows the same size    
+    - grid-auto-rows: 200px; = set all rows the same size    
     - grid-template-rows: 100px,
                     : minmax(200px, auto);
                     : repeat(3, 1fr);

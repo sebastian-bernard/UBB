@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: #333;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+h1,
+h2 {
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+img {
+    width: 100%;
+}
+
+form {
+    background-color: red;
+}
+
+.container {
+    background-color: blueviolet;
+    margin: 20px 0px;
+    border: 20px;
+    border-color: aliceblue;
+    height: 100%;
+    width: 100%;
+}
+
+.flex {
+    display: felx;
+}
+
+.btn {
+    background-color: orange;
+    margin: 20px 0px;
+}

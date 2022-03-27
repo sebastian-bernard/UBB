@@ -1,0 +1,11 @@
+Parents of Computer Science 
+    Kurt Goedels 
+        - frind with Einstain
+        - invented theory of incompletness
+        - during cold warr, he creaetd the internet
+        -   
+        
+    Alain Touring
+        - link between tehory of incompletness and Computer Science
+        - Universal Touring machine -> Enigma        
+
