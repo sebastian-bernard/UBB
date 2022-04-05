@@ -1,3 +1,5 @@
+/* Initialisation */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -10,7 +12,7 @@ body {
 }
 
 ul {
-    list-style-type: circle;
+    list-style-type: none;
 }
 
 a {
@@ -33,24 +35,85 @@ img {
     width: 100%;
 }
 
-form {
-    background-color: red;
+
+/* Navbar */
+
+.navbar ul {
+    display: flex;
 }
+
+
+/* Utils */
 
 .container {
-    background-color: blueviolet;
-    margin: 20px 0px;
-    border: 20px;
-    border-color: aliceblue;
-    height: 100%;
-    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 40px;
+    /* overflow: auto; */
 }
 
-.flex {
-    display: felx;
-}
+
+/* .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+} */
 
 .btn {
     background-color: orange;
-    margin: 20px 0px;
+    border: 3px solid blue;
+    padding: 10px;
+    margin: 5px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+/* Testing */
+
+.nav-form {
+    border: 3px solid red;
+}
+
+.navbar>:first-child {
+    border: 3px dotted black;
+    margin: 10px 0;
+    padding: 0 15px;
+}
+
+.navbar .nav-left-side {
+    border: 5px solid purple;
+    /* margin: 10px 0; */
+}
+
+.navbar .nav-center-side {
+    border: 5px solid purple;
+    margin: 10px 0;
+}
+
+.navbar .nav-right-side {
+    border: 5px solid purple;
+    /* margin: 10px 0; */
+    /* height: 60px; */
+}
+
+.navbar nav {
+    border: 6px dotted red;
+    /* padding: 30px 0; */
+}
+
+.navbar ul {
+    border: 3px solid green;
+}
+
+.navbar .container>div {
+    /* border: 5px solid pink; */
+    background-color: pink;
+    padding: 10px 0;
 }

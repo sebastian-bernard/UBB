@@ -6,42 +6,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Web Developer Bootcamp: Learn HTML, CSS, Node, and More! | Udemy</title>
-
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utilities.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar">
-        <div class="container flex">
-            <img>
-            <div class="btn drop-down-btn categories">Categories</div>
-            <form class="search-bar">
-                <div class="container flex search-bar-control">
-                    <img>
-                    <input>
+    <div class="navbar">
+        <div class="container grid">
+            <div class="nav-left-side">
+                <nav>
+                    <ul>
+                        <li>
+                            <a class="btn btn-img " target="_self " href="https://www.udemy.com/ ">
+                                <img src=" " alt="Udemty Logo " width="91 " height="34 ">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="btn btn-text " href="# ">Categories</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="nav-center-side">
+                <div class="nav-form">
+                    <form>
+                        <input type="submit">
+                        <div class="form-control">
+                            <input type="text" name="search" placeholder="Search for anything">
+                        </div>
+                    </form>
                 </div>
-            </form>
-            <div class="btn drop-down-btn udemy-business">
-                Udemy Business
             </div>
-            <div class="btn drop-down-btn teach-on-udemy">
-                Teach on Udemy
-            </div>
-            <div class="btn drop-down-btn shopping-cart">
-                Shopping cart
-            </div>
-            <div class="btn">
-                Log in
-            </div>
-            <div class="btn btn-outline">
-                Sign up
-            </div>
-            <div class="btn">
-                Internet
+            <div class="nav-right-side">
+                <nav>
+                    <ul>
+                        <li>
+                            <a class="btn btn-text " target="_blank " href="https://business.udemy.com/request-demo-mx/?locale=en_US&mx_pg=httpcachecontextsme-list&ref=ufb_header&user_type=visitor&utm_method=0&utm_source=marketplace ">Udemy Business</a>
+                        </li>
+                        <li>
+                            <a class="btn btn-text " target="_self " href="https://www.udemy.com/teaching/?ref=teach_header ">Teach on Udemy</a>
+                        </li>
+                        <li>
+                            <a class="btn btn-text " target="_self " href="https://www.udemy.com/cart/ ">Cart</a>
+                        </li>
+                        <li>
+                            <a class="btn btn-primary " target="_self " href="https://www.udemy.com/join/login-popup/?locale=en_US&response_type=html&next=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fthe-web-developer-bootcamp%2F ">Log in </a>
+                        </li>
+                        <li>
+                            <a class="btn btn-primary btn-dark " target="_self " href="https://www.udemy.com/join/signup-popup/?locale=en_US&response_type=html&next=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fthe-web-developer-bootcamp%2F ">Sign up</a>
+                        </li>
+                        <li>
+                            <a class="btn btn-primary " href="# ">Language </a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </div>
-    </nav>
+    </div>
 </body>
 
 </html>

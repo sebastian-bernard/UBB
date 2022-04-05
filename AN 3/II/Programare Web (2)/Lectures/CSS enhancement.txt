@@ -22,3 +22,27 @@
         --primary-color: #047aed;
         --secondary-color: #1c3fa8;     
     }
+
+
+- Styling rules:
+    - style basic parent div:
+        - color
+        - height:
+        - *position
+
+    - style container:
+        - fitting content: max-width, overflow
+        - positioning content: padding, margin
+        - flex:
+            - position the content
+            - height
+
+        - grid:
+            - column numbers
+            - spacing between columns
+            - height
+
+    - style elements:
+        - special colors
+        - line-height
+        - more spacing
