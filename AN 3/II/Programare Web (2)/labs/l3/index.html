@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utilities.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/Css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"> -->
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
 </head>
 
 <body>
@@ -16,11 +20,11 @@
     <div class="navbar">
         <div class="container grid">
             <div class="nav-left-side">
-                <nav>
+                <nav class="flex">
                     <ul>
                         <li>
                             <a class="btn btn-img " target="_self " href="https://www.udemy.com/ ">
-                                <img src=" " alt="Udemty Logo " width="91 " height="34 ">
+                                <img src="./resources/udemy-nav-logo.png" alt="Udemty Logo">
                             </a>
                         </li>
                         <li>
@@ -29,10 +33,14 @@
                     </ul>
                 </nav>
             </div>
-            <div class="nav-center-side">
+            <div class="nav-center-side flex">
                 <div class="nav-form">
-                    <form>
-                        <input type="submit">
+                    <form class="flex">
+                        <!-- <input type="submit"> -->
+                        <div class="btn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+
                         <div class="form-control">
                             <input type="text" name="search" placeholder="Search for anything">
                         </div>
@@ -40,7 +48,7 @@
                 </div>
             </div>
             <div class="nav-right-side">
-                <nav>
+                <nav class="flex">
                     <ul>
                         <li>
                             <a class="btn btn-text " target="_blank " href="https://business.udemy.com/request-demo-mx/?locale=en_US&mx_pg=httpcachecontextsme-list&ref=ufb_header&user_type=visitor&utm_method=0&utm_source=marketplace ">Udemy Business</a>
@@ -49,8 +57,16 @@
                             <a class="btn btn-text " target="_self " href="https://www.udemy.com/teaching/?ref=teach_header ">Teach on Udemy</a>
                         </li>
                         <li>
-                            <a class="btn btn-text " target="_self " href="https://www.udemy.com/cart/ ">Cart</a>
+                            <a class="btn btn-text " target="_self " href="https://www.udemy.com/cart/ ">
+                                <!-- <i class="fa-regular fa-cart-shopping "></i> -->
+                                <!-- <i class="fas fa-project-diagram fa-3x "></i> -->
+                                <!-- <i class="fal fa-shopping-cart "></i> -->
+                                <i class="fas fa-shopping-cart "></i>
+                            </a>
                         </li>
+                    </ul>
+
+                    <ul>
                         <li>
                             <a class="btn btn-primary " target="_self " href="https://www.udemy.com/join/login-popup/?locale=en_US&response_type=html&next=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fthe-web-developer-bootcamp%2F ">Log in </a>
                         </li>
@@ -58,7 +74,11 @@
                             <a class="btn btn-primary btn-dark " target="_self " href="https://www.udemy.com/join/signup-popup/?locale=en_US&response_type=html&next=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fthe-web-developer-bootcamp%2F ">Sign up</a>
                         </li>
                         <li>
-                            <a class="btn btn-primary " href="# ">Language </a>
+                            <a class="btn btn-primary " href="# ">
+                                <!-- <i class="fa-light fa-globe "></i> -->
+                                <!-- <i class="fa-thin fa-globe "></i> -->
+                                <i class="fa-solid fa-globe "></i>
+                            </a>
                         </li>
                     </ul>
                 </nav>
