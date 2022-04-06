@@ -1,0 +1,157 @@
+/* Initialisation */
+
+:root {
+    --primary-color: #fff;
+    --dark-color: #1c1d1f;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: #333;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+h1,
+h2 {
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+img {
+    width: 100%;
+}
+
+
+/* Navbar */
+
+
+/* generic navbar */
+
+.navbar {
+    position: relative;
+    background-color: #fff;
+    padding: 0;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar .container {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar>:first-child {
+    padding: 0;
+}
+
+.navbar .container>div {
+    /* border: 5px solid pink; */
+    background-color: var(--primary-color);
+    padding: 0;
+    margin: 0;
+    height: 76px;
+}
+
+.navbar .grid {
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-areas: 'left center right';
+    grid-template-columns: 220px 1fr 535px;
+}
+
+
+/* .nav-center-side {
+    /* height: 76px; */
+
+
+/*left navbar  */
+
+.navbar .nav-left-side {
+    grid-area: left;
+}
+
+.nav-left-side .btn-img {
+    /* position: absolute; */
+    padding: 0;
+    width: 100px;
+    overflow: hidden;
+}
+
+.nav-left-side .btn-img img {
+    width: 91px;
+    height: 34px;
+}
+
+
+/*center navbar  */
+
+.navbar .nav-center-side {
+    grid-area: center;
+}
+
+.nav-center-side .nav-form {
+    width: 100%;
+    height: 48px;
+    margin: 0 5px;
+    border: 1px solid var(--dark-color);
+    border-radius: 4cm;
+    overflow: hidden;
+}
+
+.nav-center-side .flex {
+    justify-content: start;
+}
+
+.nav-center-side .form-control {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+.nav-center-side input {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    right: 0;
+    border: none;
+    outline: none;
+}
+
+.nav-center-side .btn {
+    /* opacity: 0.5; */
+    color: rgba(0, 0, 0, 0.4);
+}
+
+
+/*right navbar  */
+
+.navbar .nav-right-side {
+    grid-area: right;
+}
+
+.nav-right-side .flex {
+    justify-content: space-between;
+    margin-right: 20px;
+}
