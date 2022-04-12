@@ -1,5 +1,5 @@
 .container {
-    max-width: 1080px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 40px;
     overflow: auto;
@@ -39,11 +39,46 @@
     color: var(--primary-color);
 }
 
+.btn-purple {
+    background-color: var(--purple);
+    color: var(--primary-color);
+}
+
+.lead-title {
+    font-family: sf pro display, -apple-system, BlinkMacSystemFont, Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -.02rem;
+}
+
+.text-underline {
+    color: var(--violet) !important;
+    text-decoration: underline !important;
+    font-weight: normal !important;
+}
+
 .flex {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+
+.flex-center-row {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+}
+
+.flex-center-column {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
 }
 
 .grid {
@@ -52,4 +87,19 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    height: 100%;
+}
+
+.card {
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
 }

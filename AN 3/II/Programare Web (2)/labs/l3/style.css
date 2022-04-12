@@ -1,8 +1,11 @@
 /* Initialisation */
 
-:root {
+ :root {
     --primary-color: #fff;
     --dark-color: #1c1d1f;
+    --gold-color: #f3ca8c;
+    --violet: #cec0fc;
+    --purple: #a435f0;
 }
 
 * {
@@ -12,27 +15,32 @@
 }
 
 body {
+    font-family: sf pro display, -apple-system, BlinkMacSystemFont, Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
     color: #333;
     line-height: 1.6;
 }
 
 ul {
+    font-family: sf pro display, -apple-system, BlinkMacSystemFont, Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
     list-style-type: none;
 }
 
 a {
+    font-family: sf pro display, -apple-system, BlinkMacSystemFont, Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
     text-decoration: none;
     color: #333;
 }
 
 h1,
 h2 {
+    font-family: sf pro display, -apple-system, BlinkMacSystemFont, Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
     font-weight: 300;
     line-height: 1.2;
     margin: 10px 0;
 }
 
 p {
+    font-family: sf pro display, -apple-system, BlinkMacSystemFont, Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
     margin: 10px 0;
 }
 
@@ -47,9 +55,14 @@ img {
 /* generic navbar */
 
 .navbar {
-    position: relative;
+    position: absolute;
+    /* position: relative; */
+    left: 0;
+    right: 0;
+    top: 0;
     background-color: #fff;
     padding: 0;
+    z-index: 1000;
 }
 
 .navbar ul {
@@ -80,19 +93,11 @@ img {
     grid-template-columns: 220px 1fr 535px;
 }
 
-
-/* .nav-center-side {
-    /* height: 76px; */
-
-
-/*left navbar  */
-
 .navbar .nav-left-side {
     grid-area: left;
 }
 
 .nav-left-side .btn-img {
-    /* position: absolute; */
     padding: 0;
     width: 100px;
     overflow: hidden;
@@ -149,9 +154,244 @@ img {
 
 .navbar .nav-right-side {
     grid-area: right;
+    padding: 0 50px;
+}
+
+.navbar .nav-right-side nav {
+    margin: 0 20px;
+    height: 100%;
 }
 
 .nav-right-side .flex {
     justify-content: space-between;
-    margin-right: 20px;
+    /* justify-content: space-around; */
+    /* margin-right: 20px; */
+    /* SPATIU */
+}
+
+.nav-right-side li {
+    height: 70px;
+    padding: 0;
+    /* width: fit-content; */
+}
+
+.nav-right-side .btn {
+    width: fit-content;
+    margin: 0;
+}
+
+.nav-right-side .btn-text {
+    padding: 0;
+}
+
+
+/* Ribbon */
+
+.ribbon {
+    position: sticky;
+    left: 0;
+    right: 0;
+    z-index: 500;
+    top: 0px;
+    height: 80px;
+}
+
+.ribbon .container {
+    background-color: var(--dark-color);
+    color: var(--primary-color);
+    max-width: none;
+    height: 100%;
+    padding: 0 20px;
+    overflow: visible;
+}
+
+.ribbon .container .title {
+    margin-bottom: 2px;
+    font-size: 15px;
+}
+
+.ribbon .container .content {
+    height: 20px;
+    justify-content: space-between;
+    width: fit-content;
+}
+
+.ribbon .container .content>* {
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.ribbon .container .content a {
+    color: var(--gold-color);
+    font-weight: bold;
+}
+
+.ribbon .container .content :nth-child(3) {
+    /* color: var(--violet);
+    text-decoration: underline;
+    font-weight: normal; */
+}
+
+
+/* Showcase */
+
+
+/* general rules */
+
+.showcase {
+    background: var(--dark-color);
+    padding-top: 20px;
+    height: 330px;
+    /* height: 400px; */
+}
+
+.showcase .container {
+    overflow: visible;
+}
+
+.showcase-left-side>div {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+/*Showcase LEFT */
+
+.showcase-left-side .path {
+    color: var(--violet);
+    font-weight: bold;
+    /* padding-top: 10px; */
+}
+
+.showcase-left-side .path div>div {
+    margin-left: 10px;
+}
+
+.showcase-left-side .path div:nth-child(2) {
+    font-size: 10px;
+}
+
+.showcase-left-side .title {
+    color: var(--primary-color);
+}
+
+.showcase-left-side .course-summary {
+    color: var(--primary-color);
+}
+
+.showcase-left-side .course-rating {
+    color: var(--primary-color);
+}
+
+.showcase-left-side .course-rating a {
+    color: var(--gold-color);
+    font-weight: bold;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.showcase-left-side .course-rating {
+    color: var(--primary-color);
+}
+
+.showcase-left-side .course-rating p {
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.showcase-left-side .author p {
+    color: var(--primary-color);
+    margin-right: 5px;
+}
+
+.showcase-left-side .extra-info div>div {
+    margin-right: 10px;
+}
+
+.showcase-left-side .extra-info {
+    color: var(--primary-color);
+}
+
+.showcase-left-side .extra-info .text-underline {
+    color: var(--primary-color) !important;
+}
+
+
+/* Showcase RIGHT */
+
+.showcase-right-side .button-menu .grid-2 {
+    /* border: 3px dotted green; */
+    grid-template-columns: 5fr 1fr;
+    gap: 10px;
+}
+
+.showcase-right-side .button-menu .btn-primary {
+    margin: 0;
+}
+
+.showcase-right-side .button-menu ul :nth-child(3) {
+    grid-column: 1/3;
+}
+
+.showcase-right-side .money-back {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.showcase-right-side .money-back p {
+    width: fit-content;
+}
+
+.showcase-right-side .course-content p {
+    margin: 0;
+    margin-left: 10px;
+}
+
+.showcase-right-side .course-content .grid-2 {
+    grid-template-columns: 30px 1fr;
+    gap: 10px;
+}
+
+.showcase-right-side .promo .flex {
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.showcase-right-side .promo .btn {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.showcase-right-side .promo .btn:hover {
+    color: var(--dark-color);
+}
+
+
+/* Flow */
+
+.flow {
+    margin-top: 20px;
+    height: 1000px;
+}
+
+
+/* .flow .container {
+    border: 3px solid red;
+} */
+
+.flow .container .card {
+    height: fit-content;
+}
+
+.flow .container .card .grid-2 {
+    grid-template-columns: 30px 1fr;
+    gap: 10px;
+}
+
+.flow .container .card .grid-2 .flex {
+    align-items: start;
+}
+
+.flow .container .card .grid-2 p {
+    margin: 0;
 }
