@@ -20,5 +20,11 @@ printf("error for order 2:%f\n", err_f5);
 x = 0 : 0.01 : 100;
 pt1 = polyval(f2, x);
 pt2 = polyval(f5, x);
-plot(x, pt1, x, pt2, temperature, pressure, "*")
+
+pt_interpolated = [];
+for i = 1:length(x)
+  pt_interpolated = [pt_interpolated, barycentric(temperature, pressure, x(i))];
+endfor
+
+plot(x, pt1, "-r", x, pt2, "-g", x, pt_interpolated,"-b" , temperature, pressure, "*")
 legend
